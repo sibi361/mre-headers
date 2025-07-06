@@ -1,0 +1,19 @@
+/*
+  X-Matched-Path: I matched /*
+
+# As given at https://developers.cloudflare.com/workers/static-assets/headers/#prevent-your-workersdev-urls-showing-in-search-results
+https://*.workers.dev/*
+  X-Matched-Path: I matched https://*.workers.dev/*
+
+https://*.sleepless.workers.dev/*
+  X-Matched-Path: I matched https://*.sleepless.workers.dev/*
+
+https://mre-headers.*.workers.dev/*
+  X-Matched-Path: I matched https://mre-headers.*.workers.dev/*
+
+https://mre-headers.sleepless.workers.dev/*
+  X-Matched-Path: I matched https://mre-headers.sleepless.workers.dev/*
+
+https://*.sleepless.workers.dev/*
+  X-Matched-Path: I matched https://*.sleepless.workers.dev/*
+
